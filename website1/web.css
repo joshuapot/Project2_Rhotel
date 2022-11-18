@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+}
+.logo{
+    width: 100%;
+    background: rgb(240, 13, 51);
+    display: flex;
+    justify-content: space-between;
+}
+.logo .navbar img{
+    width: 40px;
+    margin: 20px;
+}
+.nav-bar{
+    padding: 20px;
+}
+a{
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+}
+a:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+
+
+.rotation{
+    background-color: cornflowerblue;
+    width: 100%;
+}
+.rotation img{
+    width: 600px;
+    height: 80vh;
+    border: solid 5px;
+    border-color: #fff;
+    border-radius: 10px;
+}
+.two img{
+    width: 60%;
+    border-radius: 30%;
+    margin-top: 60px;
+    border: 2px solid rgb(198, 10, 0);
+  }
+  .trying{
+    width: 100%;
+    margin: 30px;
+  }
+.trying img{
+    width: 250px;
+    border-radius: 10%;
+    margin-top: 15px;
+    border: 0;
+}
+.trying h2{
+    text-align: center;
+}
+p {
+        margin-top: 10px;
+        font-family: fantasy;
+        font-size: 15px;
+}
+.par{
+        margin-top: 140px;
+        width: 100%;
+        height: 70vh;
+        padding: 30px;
+        background-color: rgb(0, 119, 255);
+}
+.one{
+    margin-top: 40px;
+    width: 100%;
+    height: 40vh;
+    padding: 20px;
+    background-color: rgb(0, 119, 255);
+}
+.three img{
+    width: 30%;
+    border-radius: 50%;
+    margin-top: 80px;
+}
+  .players img{
+    width: 100%;
+    justify-content: space-around;
+    background-color: #fff;
+    border-radius: 60px;
+    
+  }
+  .players img{
+    width: 30%;
+    border-radius: 40%;
+    margin-top: 50px;
+    border: 2px solid red;
+  }
+  footer{
+    background-color: black;
+    height: 200px;
+    width: 100%;
+    color: grey;
+    text-align: center;
+    padding-top: 10px;
+  }
